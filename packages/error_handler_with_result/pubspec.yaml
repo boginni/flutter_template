@@ -1,0 +1,13 @@
+name: error_handler_with_result
+description: A lightweight Result pattern implementation for Dart. Simplifies error handling by capturing failures and successes without the need for manual try-catch blocks.
+version: 1.0.0
+repository: https://github.com/boginni/error_handler_with_result
+
+resolution: workspace
+
+environment:
+  sdk: ^3.11.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

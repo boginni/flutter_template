@@ -1,0 +1,47 @@
+name: nubank_test
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+workspace:
+  - packages/*
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+
+  custom_go_router:
+    path: packages/custom_go_router
+
+  nu_assets:
+    path: packages/nu_assets
+
+  nu_l10n:
+    path: packages/nu_l10n
+
+  error_handler_with_result:
+    path: packages/error_handler_with_result
+
+  nu_design_system:
+    path: packages/nu_design_system
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.4.1
+  google_fonts: ^8.0.2
+  get_it: ^9.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mocktail: ^1.0.5
+  golden_toolkit: ^0.15.0
+
+flutter:
+  uses-material-design: true
